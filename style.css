@@ -1,0 +1,39 @@
+body {
+    background-image: url(langkawi.jpg);
+    background-size: cover;
+    background-position: fill;
+    background-repeat: no-repeat;
+  }
+
+  .login-box{
+      max-width: 700px;
+      float: none;
+      margin: 150px auto;
+  }
+
+  .login-left{
+    background: rgba(211, 120, 211, 0.5);
+    padding: 30px;
+    border-style: outset;
+    border-radius: 20px;
+  }
+  .signup-right{
+    background: rgba(211, 211, 150, 0.5);
+    padding: 30px;
+    border-style: outset;
+    border-radius: 20px;
+  }
+  a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+    border-radius: 20px;
+  }
